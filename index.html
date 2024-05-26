@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Jogo do Palpite</title>
 </head>
 <body>
-    <h1>Jogo do Palpite</h1>
-    <p id="mensagem"></p>
-    <button id="jogar-novamente" onclick="jogar()">Jogar</button>
+    <div id="game-container">
+        <h1>Jogo do Palpite</h1>
+        <p>Olá, este é o jogo do palpite, chute um número e o sistema irá lhe informar se o número é maior ou menor. <br>
+            Jogue quantas vezes quiser!
+        </p>
+        <p id="mensagem"></p>
+        <button id="botao" onclick="jogar()">Jogar</button>
+    </div>
     <script src="randompalpite.js"></script>
 </body>
 </html>
